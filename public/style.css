@@ -1,0 +1,49 @@
+
+body {
+	background-color: rgb(115, 115, 115);
+}
+
+#main-content{
+	background: url("/img/pug.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 2600px;
+}
+
+.subtitle{
+	margin-top:50px;
+}
+
+.top{
+	height:200px;
+}
+
+h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Andika', sans-serif;
+	line-height: 1.4;
+}
+h2{
+	font-size: 35px;
+	color: white;
+	font-family: 'Andika', sans-serif;
+}
+
+.row{
+	margin: 0px 0px;
+}
+
+span.highlight{
+	line-height: 1.9;
+}
+
+.orange{
+	background-color: rgba(255, 153, 0, 0.6);
+}
+
+.dark-purple{
+	background-color: rgba(77, 0, 77, 0.6);
+}
