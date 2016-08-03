@@ -4,22 +4,21 @@ body {
 }
 
 #main-content{
-	background: url("/img/pug.jpg");
+	background: url("/img/pugsquirrel.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: 2600px;
 }
 
-#menu-collapse {
-	position:absolute;
+#menu-icon {
 	text-align:right;
 	right: 32%;
-	top: 4%;
+	top: 1%;
 }
 
 .menu {
-	height: 400px;
+	height: 700px;
 	background-color: rgb(115, 115, 115);
 	position: absolute;
 	z-index: 999;
@@ -32,6 +31,7 @@ body {
 	font-size:	50px;
 	color:white;
 	text-align:center;
+	margin-bottom:50px;
 }
 
 .fa{

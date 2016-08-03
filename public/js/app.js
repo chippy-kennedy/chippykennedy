@@ -5,7 +5,7 @@ ready = function(){
 			$(this).slideToggle(600);
 		});
 		
-		$(".menu-icon").click( function() {
+		$("#menu-icon").click( function() {
 			console.log("menu-icon selected");
 			$(".menu").slideToggle(600);
 		});
