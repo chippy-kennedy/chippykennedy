@@ -11,6 +11,33 @@ body {
 	height: 2600px;
 }
 
+#menu-collapse {
+	position:absolute;
+	text-align:right;
+	right: 32%;
+	top: 4%;
+}
+
+.menu {
+	height: 400px;
+	background-color: rgb(115, 115, 115);
+	position: absolute;
+	z-index: 999;
+	opacity: 0.95;
+	border-radius:5px;
+}
+
+.menu li a{
+	font-family: 'Andika', sans-serif;
+	font-size:	50px;
+	color:white;
+	text-align:center;
+}
+
+.fa{
+	color: white;
+}
+
 .subtitle{
 	margin-top:50px;
 }
@@ -42,6 +69,7 @@ span.highlight{
 
 .orange{
 	background-color: rgba(255, 153, 0, 0.6);
+	background-color: rgba(115, 115, 115, 0.6);
 }
 
 .dark-purple{
