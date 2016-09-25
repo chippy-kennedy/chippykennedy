@@ -8,17 +8,22 @@ body {
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 2600px;
+	height: 2300px;
 }
 
 #menu-icon {
 	text-align:right;
 	right: 32%;
 	top: 1%;
+	margin-bottom:50px;
+}
+
+#header {
+	margin-bottom:50px;
 }
 
 .menu {
-	height: 700px;
+	height: 500px;
 	background-color: rgb(115, 115, 115);
 	position: absolute;
 	z-index: 999;
@@ -38,12 +43,45 @@ body {
 	color: white;
 }
 
+.content {
+	background-color:#f2f2f2; 
+	color:white;
+	margin-bottom:50px !important;
+}
+
 .subtitle{
 	margin-top:50px;
 }
 
 .top{
 	height:200px;
+}
+
+#contact{
+	margin-bottom:50px;
+}
+
+.project{
+	#height: 80px;
+	border-radius: 12px;
+	margin: 10px 15px;
+	text-align:center;
+	font-family: 'Andika', sans-serif;
+	font-size:	22px;
+	font-weight: 900;
+	padding-top: 10px;
+	background-color: rgba(115, 115, 115, 0.9);
+}
+.project:hover{
+	background-color:#5a6d3b;
+	color: white;
+}
+
+.fa{
+	color: rgba(115, 115, 115, 0.9);
+}
+.fa:hover{
+	color: #000099;
 }
 
 h1{
@@ -54,10 +92,27 @@ h1{
 	line-height: 1.4;
 }
 h2{
-	font-size: 35px;
-	color: white;
+	font-size: 45px;
+	color: #5a6d3b; 
 	font-family: 'Andika', sans-serif;
+	font-weight:500;
 }
+h3{
+	font-size: 45px;
+	color: #5a6d3b; 
+	font-family: 'Andika', sans-serif;
+	font-weight:500;
+}
+h4{
+	font-size:20px;
+	color:white;
+	font-family: 'Andika', sans-serif;
+	font-weight:500;
+}
+p{
+	font-size:16px;
+}
+
 
 .row{
 	margin: 0px 0px;
