@@ -10,6 +10,11 @@ ready = function(){
 			$(".menu").slideToggle(600);
 		});
 
+		$("#phone").click( function() {
+			$(this).children("i").toggle();
+			$(this).children("p").toggle();
+		});
+
 };
 
 $(document).ready(ready);
