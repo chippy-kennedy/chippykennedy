@@ -1,3 +1,3 @@
-## Sinatra Websockets Assets
+## Chippy Kennedy .com
 
-A basic starting point for getting started with Sinatra, WebSockets, and the asset pipeline.
+Personal site on sinatra, sprockets, and trading beer for web design help
