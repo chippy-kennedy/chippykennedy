@@ -1,0 +1,183 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* global vars */
+$header-font: 'Montserrat', sans-serif;
+$primary-green: #5a6d3b;
+
+body {
+	background-color: rgb(115, 115, 115);
+}
+
+#main-content{
+	background: url("../pugsquirrel.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top:90px;
+}
+
+
+#header {
+	margin-bottom:50px;
+}
+
+.menu {
+	height: 500px;
+	background-color: rgb(115, 115, 115);
+	position: absolute;
+	z-index: 999;
+	opacity: 0.95;
+	border-radius:5px;
+}
+
+.menu li a{
+	font-family: $header-font !important;
+	font-size:	50px;
+	color:white;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.fa{
+	color: white;
+}
+
+.content {
+	background-color:#f2f2f2; 
+	background-color:$primary-green;
+	background-color:#a7bd85;
+	color:white;
+}
+
+.subtitle{
+	margin-top:50px;
+}
+
+.top{
+	height:200px;
+}
+
+#contact{
+	margin-bottom:50px;
+}
+
+.mission1{
+	background-color:$primary-green;
+}
+.mission2{
+	background-color:#a7bd85;
+}
+.mission3{
+	background-color:#f2f2f2; 
+}
+
+.project{
+	height: 380px;
+	border-radius: 12px;
+	border-style: solid;
+	border-color:#f2f2f2;
+	border-width:10px;
+	margin: 10px 0px;
+	text-align:center;
+	font-family: $header-font !important;
+	font-size:	22px;
+	font-weight: 900;
+	padding-top: 10px;
+	background-color: rgba(115, 115, 115, 0.9);
+}
+.project:hover{
+	background-color:$primary-green;
+	color: white;
+}
+
+.fa{
+	color: rgba(115, 115, 115, 0.9);
+}
+.fa:hover{
+	color: $primary-green;
+}
+
+.left{
+	padding-left:50px;
+}
+
+h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bold;
+	font-family: $header-font !important;
+	line-height: 1.4;
+}
+h2{
+	font-size: 45px;
+	color: white; 
+	font-family: $header-font !important;
+	font-weight:500;
+}
+h3{
+	font-size: 40px;
+	color: $primary-green; 
+	font-family: $header-font !important;
+	font-weight:500;
+}
+h4{
+	font-size:24px;
+	color:white;
+	font-family: $header-font !important;
+	font-weight:500;
+	margin-bottom:0px;
+}
+h5{
+	font-size:18px;
+	color:white;
+	font-family: $header-font !important;
+	font-weight:900;
+	margin-bottom:2px;
+	margin-top:5px;
+}
+p{
+	font-size:16px;
+}
+
+.phone-display{
+	display:none;
+	color:$primary-green;
+	font-size:24px;
+	font-weight:bold;
+	margin:22px 0px 0px -30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+.row{
+	margin: 0px 0px;
+}
+
+span.highlight{
+	line-height: 1.9;
+}
+
+.orange{
+	background-color: rgba(255, 153, 0, 0.6);
+	background-color: rgba(115, 115, 115, 0.6);
+}
+
+.dark-purple{
+	background-color: rgba(77, 0, 77, 0.6);
+}
