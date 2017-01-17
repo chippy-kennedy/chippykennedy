@@ -1,9 +1,12 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "bootstrap";
 
 /* global vars */
 $header-font: 'Montserrat', sans-serif;
-$primary-green: #5a6d3b;
+$primary-green: #0D0AB3;
+$secondary-green:#413DDA;
+$primary-background:#f2f2f2;
 
 body {
 	background-color: rgb(115, 115, 115);
@@ -44,9 +47,7 @@ body {
 }
 
 .content {
-	background-color:#f2f2f2; 
-	background-color:$primary-green;
-	background-color:#a7bd85;
+	background-color:$primary-background; 
 	color:white;
 }
 
@@ -62,21 +63,32 @@ body {
 	margin-bottom:50px;
 }
 
-.mission1{
+.mission{
+	height:120px;
+}
+
+.mission-text{
+	margin-top:20px;
+}
+
+#mission1{
 	background-color:$primary-green;
+	color:white;
 }
-.mission2{
-	background-color:#a7bd85;
+#mission2{
+	background-color:$secondary-green;
+	color:white;
 }
-.mission3{
-	background-color:#f2f2f2; 
+#mission3{
+	background-color:$primary-background; 
+	color:$secondary-green;
 }
 
 .project{
 	height: 380px;
 	border-radius: 12px;
 	border-style: solid;
-	border-color:#f2f2f2;
+	border-color:$primary-background;
 	border-width:10px;
 	margin: 10px 0px;
 	text-align:center;
@@ -87,7 +99,7 @@ body {
 	background-color: rgba(115, 115, 115, 0.9);
 }
 .project:hover{
-	background-color:$primary-green;
+	background-color:$secondary-green;
 	color: white;
 }
 
@@ -111,7 +123,6 @@ h1{
 }
 h2{
 	font-size: 45px;
-	color: white; 
 	font-family: $header-font !important;
 	font-weight:500;
 }

@@ -8,10 +8,12 @@ gem 'haml'
 gem 'sinatra-asset-pipeline'
 gem 'pry'
 gem 'sinatra-websocket', '0.3.1'
-gem 'bootstrap'
+#gem 'bootstrap'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'thin'
 gem 'therubyracer'
 gem 'haml_coffee_assets'
+gem "font-awesome-rails"
 
 #gem 'sqlite3'
 #gem 'activerecord', '3.2.17'
