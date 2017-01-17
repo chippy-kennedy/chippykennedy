@@ -3,31 +3,42 @@
 @import "bootstrap";
 
 /* global vars */
-$header-font: 'Montserrat', sans-serif;
-$primary-green: #0D0AB3;
-$secondary-green:#413DDA;
-$primary-background:#f2f2f2;
+$header-font: 				'Montserrat', sans-serif;
+$primary-green: 			#0D0AB3;
+$secondary-green:			#413DDA;
+$primary-background:	#f2f2f2;
+$secondary-background: rgba(115, 115, 115, 0.9);
 
 body {
-	background-color: rgb(115, 115, 115);
+	background-color: $secondary-background;
 }
 
 #main-content{
-	background: url("../pugsquirrel.jpg");
+	background: url("../background.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding-top:90px;
 }
 
+span.highlight {
+	background-color: $secondary-background; 
+	line-height: 1.9;
+}
+
 
 #header {
 	margin-bottom:50px;
+	height:400px;
+}
+
+.header-text{
+	margin-top:2%;
 }
 
 .menu {
 	height: 500px;
-	background-color: rgb(115, 115, 115);
+	background-color: $secondary-background; 
 	position: absolute;
 	z-index: 999;
 	opacity: 0.95;
@@ -96,7 +107,7 @@ body {
 	font-size:	22px;
 	font-weight: 900;
 	padding-top: 10px;
-	background-color: rgba(115, 115, 115, 0.9);
+	background-color: $secondary-background; 
 }
 .project:hover{
 	background-color:$secondary-green;
@@ -104,7 +115,7 @@ body {
 }
 
 .fa{
-	color: rgba(115, 115, 115, 0.9);
+	color: $secondary-background; 
 }
 .fa:hover{
 	color: $primary-green;
@@ -175,20 +186,6 @@ a:active {
     text-decoration: none;
 }
 
-
 .row{
 	margin: 0px 0px;
-}
-
-span.highlight{
-	line-height: 1.9;
-}
-
-.orange{
-	background-color: rgba(255, 153, 0, 0.6);
-	background-color: rgba(115, 115, 115, 0.6);
-}
-
-.dark-purple{
-	background-color: rgba(77, 0, 77, 0.6);
 }

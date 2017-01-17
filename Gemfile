@@ -13,7 +13,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'thin'
 gem 'therubyracer'
 gem 'haml_coffee_assets'
-gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 4.7.0'
 
 #gem 'sqlite3'
 #gem 'activerecord', '3.2.17'
