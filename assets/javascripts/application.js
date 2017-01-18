@@ -15,6 +15,8 @@ ready = function(){
 			$(this).children("p").toggle();
 		});
 
+		$('.portfolio').viewportChecker();
+
 };
 
 $(document).ready(ready);

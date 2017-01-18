@@ -2,6 +2,8 @@ Bundler.require
 require 'yaml'
 require 'sinatra'
 require 'sinatra/asset_pipeline'
+require 'font-awesome-sass'
+
 
 class Chippy < Sinatra::Base
   register Sinatra::Partial
