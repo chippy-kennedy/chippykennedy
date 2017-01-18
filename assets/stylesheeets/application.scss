@@ -6,6 +6,7 @@
 $header-font: 				'Montserrat', sans-serif;
 $primary-green: 			#0D0AB3;
 $secondary-green:			#413DDA;
+$teriary-green:				#AEBEFF;
 $primary-background:	#f2f2f2;
 $secondary-background: rgba(115, 115, 115, 0.9);
 
@@ -26,6 +27,37 @@ span.highlight {
 	line-height: 1.9;
 }
 
+span.first{
+	font-size:60px;
+	font-weight: bold;
+	color: $secondary-green;
+	letter-spacing: 6px;
+}
+
+span.second{
+	font-size:60px;
+	font-weight: bold;
+	color: $primary-green;
+	letter-spacing: 6px;
+}
+
+span.and{
+	font-weight: bold;
+	font-size:180px;
+	color: $secondary-background;
+	letter-spacing: 6px;
+}
+
+span.dot{
+	color: $secondary-green;
+}
+
+.section-title{
+	font-weight:bold;
+	color:white !important;
+	text-align:center;
+	margin: 110px 0px;
+}
 
 #header {
 	margin-bottom:50px;
@@ -43,6 +75,32 @@ span.highlight {
 	z-index: 999;
 	opacity: 0.95;
 	border-radius:5px;
+}
+
+.portfolio-title{
+	background-color: $secondary-background;
+}
+.services-title{
+	background-color: $secondary-background;
+}
+.contact-title{
+	background-color: $secondary-background;
+}
+
+.portfolio{
+	display:flex;
+	background-color: $primary-background;
+}
+
+.services{
+	display:flex;
+	background-color: $primary-background;
+}
+
+.contact{
+	height:400px;
+	//display:flex;
+	background-color: $primary-background;
 }
 
 .menu li a{
@@ -70,9 +128,6 @@ span.highlight {
 	height:200px;
 }
 
-#contact{
-	margin-bottom:50px;
-}
 
 .mission{
 	display:flex;
@@ -85,14 +140,14 @@ span.highlight {
 
 #mission1{
 	background-color:$primary-green;
-	color:white;
+	color:$teriary-green;
 }
 #mission2{
 	background-color:$secondary-green;
-	color:white;
+	color:$primary-green;
 }
 #mission3{
-	background-color:$primary-background; 
+	background-color:$teriary-green; //$primary-background; 
 	color:$secondary-green;
 }
 
@@ -153,7 +208,7 @@ h4{
 }
 h5{
 	font-size:18px;
-	color:white;
+	color:$teriary-green;
 	font-family: $header-font !important;
 	font-weight:900;
 	margin-bottom:2px;
