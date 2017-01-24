@@ -56,8 +56,21 @@ span.dot{
 }
 
 span.strong{
-	font-size:20px;
+	font-size:38px;
 	font-weight:bold;
+	text-align:center;
+}
+
+.case-study{
+	p{
+		font-size:22px;
+		text-align:left;
+	}
+
+	img{
+		display: block;
+		text-align:center;
+	}
 }
 
 .section-title{
@@ -117,6 +130,10 @@ span.strong{
 .quote{
 	font-weight:bold;
 	font-size:22px;
+	p{
+		font-size:22px;
+		text-align:left;
+	}
 }
 
 .section.row{
