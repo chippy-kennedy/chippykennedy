@@ -4,7 +4,6 @@ require 'sinatra'
 require 'sinatra/asset_pipeline'
 require 'font-awesome-sass'
 
-
 class Chippy < Sinatra::Base
   register Sinatra::Partial
   register Sinatra::AssetPipeline
@@ -40,5 +39,13 @@ class Chippy < Sinatra::Base
 			erb :home, :format => :layout
     end
   end
+
+	get '/referrio' do
+		erb :referrio, :format => :layout
+	end
+
+	get '/usy' do
+		erb :usy, :format => :layout
+	end
 
 end

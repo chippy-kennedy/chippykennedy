@@ -55,6 +55,11 @@ span.dot{
 	color: $secondary-green;
 }
 
+span.strong{
+	font-size:20px;
+	font-weight:bold;
+}
+
 .section-title{
 	font-weight:bold;
 	color:white !important;
@@ -95,30 +100,40 @@ span.dot{
 	}	
 }
 
-.portfolio-title{
-	background-color: $secondary-background;
+.title{
+	background-color: $background-fade;
 }
-.services-title{
-	background-color: $secondary-background;
+
+.font-link{
+	text-align:center;
+	font-size:22px;
+	color:black;
 }
-.contact-title{
-	background-color: $secondary-background;
+
+.font-link:hover{
+	color:$secondary-green;
+}
+
+.quote{
+	font-weight:bold;
+	font-size:22px;
+}
+
+.section.row{
+	display:flex;
+	background-color: $primary-background;
+	padding-bottom:50px;
 }
 
 .portfolio{
-	display:flex;
-	background-color: $primary-background;
 }
 
 .services{
-	display:flex;
-	background-color: $primary-background;
 }
 
 .contact{
 	height:400px;
 	//display:flex;
-	background-color: $primary-background;
 }
 
 .fa{
