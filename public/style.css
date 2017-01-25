@@ -1,0 +1,169 @@
+
+body {
+	background-color: rgb(115, 115, 115);
+}
+
+#main-content{
+	background: url("/img/pugsquirrel.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top:90px;
+}
+
+
+#header {
+	margin-bottom:50px;
+}
+
+.menu {
+	height: 500px;
+	background-color: rgb(115, 115, 115);
+	position: absolute;
+	z-index: 999;
+	opacity: 0.95;
+	border-radius:5px;
+}
+
+.menu li a{
+	font-family: 'Andika', sans-serif;
+	font-size:	50px;
+	color:white;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.fa{
+	color: white;
+}
+
+.content {
+	background-color:#f2f2f2; 
+	color:white;
+}
+
+.subtitle{
+	margin-top:50px;
+}
+
+.top{
+	height:200px;
+}
+
+#contact{
+	margin-bottom:50px;
+}
+
+.mission{
+	background-color:#5a6d3b;
+}
+
+.project{
+	height: 380px;
+	border-radius: 12px;
+	border-style: solid;
+	border-color:#f2f2f2;
+	border-width:10px;
+	margin: 10px 0px;
+	text-align:center;
+	font-family: 'Andika', sans-serif;
+	font-size:	22px;
+	font-weight: 900;
+	padding-top: 10px;
+	background-color: rgba(115, 115, 115, 0.9);
+}
+.project:hover{
+	background-color:#5a6d3b;
+	color: white;
+}
+
+.fa{
+	color: rgba(115, 115, 115, 0.9);
+}
+.fa:hover{
+	color: #5a6d3b;
+}
+
+.left{
+	padding-left:50px;
+}
+
+h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Andika', sans-serif;
+	line-height: 1.4;
+}
+h2{
+	font-size: 45px;
+	color: white; 
+	font-family: 'Andika', sans-serif;
+	font-weight:500;
+}
+h3{
+	font-size: 40px;
+	color: #5a6d3b; 
+	font-family: 'Andika', sans-serif;
+	font-weight:500;
+}
+h4{
+	font-size:24px;
+	color:white;
+	font-family: 'Andika', sans-serif;
+	font-weight:500;
+	margin-bottom:0px;
+}
+h5{
+	font-size:18px;
+	color:white;
+	font-family: 'Andika', sans-serif;
+	font-weight:900;
+	margin-bottom:2px;
+	margin-top:5px;
+}
+p{
+	font-size:16px;
+}
+
+.phone-display{
+	display:none;
+	color:#5a6d3b;
+	font-size:24px;
+	font-weight:bold;
+	margin:22px 0px 0px -30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+.row{
+	margin: 0px 0px;
+}
+
+span.highlight{
+	line-height: 1.9;
+}
+
+.orange{
+	background-color: rgba(255, 153, 0, 0.6);
+	background-color: rgba(115, 115, 115, 0.6);
+}
+
+.dark-purple{
+	background-color: rgba(77, 0, 77, 0.6);
+}
