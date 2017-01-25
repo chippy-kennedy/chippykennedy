@@ -1,0 +1,293 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "bootstrap";
+@import "font-awesome-compass";
+@import "font-awesome";
+
+/* global vars */
+$header-font: 				'Montserrat', sans-serif;
+$primary-green: 			#0D0AB3;
+$secondary-green:			#413DDA;
+$teriary-green:				#AEBEFF;
+$primary-background:	#f2f2f2;
+$secondary-background: rgba(115, 115, 115, 0.9);
+$background-fade: rgba(115, 115, 115, 0.5);
+
+body {
+	background-color: $secondary-background;
+}
+
+#main-content{
+	background: url("../background.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top:90px;
+}
+
+span.highlight {
+	background-color: $secondary-background; 
+	line-height: 1.9;
+}
+
+span.first{
+	font-size:60px;
+	font-weight: bold;
+	color: $secondary-green;
+	letter-spacing: 6px;
+}
+
+span.second{
+	font-size:60px;
+	font-weight: bold;
+	color: $primary-green;
+	letter-spacing: 6px;
+}
+
+span.and{
+	font-weight: bold;
+	font-size:180px;
+	color: $secondary-background;
+	letter-spacing: 6px;
+}
+
+span.dot{
+	color: $secondary-green;
+}
+
+span.strong{
+	font-size:38px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.case-study{
+	p{
+		font-size:22px;
+		text-align:left;
+	}
+
+	img{
+		display: block;
+		text-align:center;
+	}
+}
+
+.section-title{
+	font-weight:bold;
+	color:white !important;
+	text-align:center;
+	margin: 110px 0px;
+}
+
+.header {
+	margin-bottom:50px;
+	height:500px;
+}
+
+.header-text{
+	margin-top:2%;
+}
+
+.menu {
+	background-color: $background-fade; 
+	position: absolute;
+	z-index: 999;
+	//opacity: 0.65;
+	border-radius:0px;
+	right:4%;
+	li{
+		font-family: $header-font !important;
+		color:white !important;
+
+		a i{
+			color:white !important;
+			float:left;
+		}
+		a h5{
+			float:left;
+			color:white !important;
+			margin: 5px 0px 2px 9px;
+		}
+
+	}	
+}
+
+.title{
+	background-color: $background-fade;
+}
+
+.font-link{
+	text-align:center;
+	font-size:22px;
+	color:black;
+}
+
+.font-link:hover{
+	color:$secondary-green;
+}
+
+.quote{
+	font-weight:bold;
+	font-size:22px;
+	p{
+		font-size:22px;
+		text-align:left;
+	}
+}
+
+.section.row{
+	display:flex;
+	background-color: $primary-background;
+	padding-bottom:50px;
+}
+
+.portfolio{
+}
+
+.services{
+}
+
+.contact{
+	height:400px;
+	//display:flex;
+}
+
+.fa{
+	color: white;
+}
+
+.fa:hover{
+	color:$teriary-green;
+}
+
+.content {
+	background-color:$primary-background; 
+	color:white;
+}
+
+.subtitle{
+	margin-top:50px;
+}
+
+.top{
+	height:200px;
+}
+
+
+.mission{
+	display:flex;
+}
+
+.mission-text{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#mission1{
+	background-color:$primary-green;
+	color:$teriary-green;
+}
+#mission2{
+	background-color:$secondary-green;
+	color:$primary-green;
+}
+#mission3{
+	background-color:$teriary-green; //$primary-background; 
+	color:$secondary-green;
+}
+
+.project{
+	height: 380px;
+	border-radius: 12px;
+	border-style: solid;
+	border-color:$primary-background;
+	border-width:10px;
+	margin: 10px 0px;
+	text-align:center;
+	font-family: $header-font !important;
+	font-size:	22px;
+	font-weight: 900;
+	padding-top: 10px;
+	background-color: $secondary-background; 
+}
+.project:hover{
+	background-color:$secondary-green;
+	color: white;
+}
+
+.fa{
+	color: $secondary-background; 
+}
+.faServiceser{
+	color: $primary-green;
+}
+
+.left{
+	padding-left:50px;
+}
+
+h1{
+	font-size: 75px;
+	color: white;
+	font-weight: bold;
+	font-family: $header-font !important;
+	line-height: 1.4;
+}
+h2{
+	font-size: 45px;
+	font-family: $header-font !important;
+	font-weight:500;
+}
+h3{
+	font-size: 40px;
+	color: $primary-green; 
+	font-family: $header-font !important;
+	font-weight:500;
+}
+h4{
+	font-size:24px;
+	color:white;
+	font-family: $header-font !important;
+	font-weight:500;
+	margin-bottom:0px;
+}
+h5{
+	font-size:18px;
+	color:$teriary-green;
+	font-family: $header-font !important;
+	font-weight:900;
+	margin-bottom:2px;
+	margin-top:5px;
+}
+p{
+	font-size:16px;
+}
+
+.phone-display{
+	display:none;
+	color:$primary-green;
+	font-size:24px;
+	font-weight:bold;
+	margin:22px 0px 0px -30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.row{
+	margin: 0px 0px;
+}

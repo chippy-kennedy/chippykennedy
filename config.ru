@@ -1,9 +1,8 @@
-require 'sinatra'
-require 'haml'
-require 'sass/plugin/rack'
-require './app'
+#!/usr/bin/env rackup
+# encoding: utf-8
 
-Sass::Plugin.options[:style] = :compressed
-use Sass::Plugin::Rack
-
-run Sinatra::Application
+#require File.expand_path("../config/boot.rb", __FILE__)
+require_relative 'app'
+run Rack::URLMap.new({
+  "/"    => Chippy
+})
