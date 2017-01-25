@@ -43,9 +43,4 @@ class Chippy < Sinatra::Base
 	get '/referrio' do
 		erb :referrio, :format => :layout
 	end
-
-	get '/usy' do
-		erb :usy, :format => :layout
-	end
-
 end
